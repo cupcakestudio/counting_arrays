@@ -2,8 +2,8 @@
 
 const countingArr = [];
 let counter = 0;
-countArray();
 
+countArray();
 function countArray() {
   if (countingArr.length < 9) {
     /*unshift takes the 1st element and shifts it, so the incoming element is the new first
@@ -31,14 +31,4 @@ function countArray() {
     //call countArray with delay for 1 sec (1000 ms)
     setTimeout(countArray, 1000);
   }
-  // countArray();
-  // setTimeout(countArray, 500);
-  // console.log(countingArr);
-
-  // countArray();
-  // else if (countingArr.length === 9) {
-  //   countingArr.pop[counter - 1];
-  //   console.log(countingArr);
-  //   return;
-  // }
 }
