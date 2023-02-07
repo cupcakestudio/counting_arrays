@@ -13,8 +13,8 @@ function countArray() {
     console.log(countingArr);
     //increment by 1 (add a new item in array)
     counter++;
-    //call countArray with delay
-    setTimeout(countArray, 100);
+    //call countArray with delay for 1 sec (1000 ms)
+    setTimeout(countArray, 1000);
     // countArray();
   } else {
     return;
